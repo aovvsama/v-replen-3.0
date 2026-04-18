@@ -1,0 +1,44 @@
+{
+  "name": "v-replenishment-tool",
+  "version": "1.0.0",
+  "description": "门店智能补货清单生成器 - 自动识别新品和缺货产品",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve .",
+    "test": "echo \"No tests specified\" && exit 0",
+    "format": "prettier --write \"**/*.{js,html,css,md,json}\"",
+    "lint": "eslint script.js"
+  },
+  "keywords": [
+    "replenishment",
+    "retail",
+    "inventory",
+    "excel",
+    "tool",
+    "门店补货",
+    "库存管理"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/v-replenishment-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/v-replenishment-tool/issues"
+  },
+  "homepage": "https://github.com/yourusername/v-replenishment-tool#readme",
+  "devDependencies": {
+    "serve": "^14.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

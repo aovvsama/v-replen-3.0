@@ -1,0 +1,84 @@
+# ====================================================
+# V-Replenishment Tool - Git 忽略文件
+# ====================================================
+
+# 依赖目录
+node_modules/
+# 这会忽略 node_modules 文件夹及其所有内容
+
+# 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store           # macOS 系统文件
+Thumbs.db           # Windows 缩略图文件
+Desktop.ini         # Windows 文件夹设置
+
+# 构建输出
+dist/
+build/
+out/
+
+# 环境变量文件（非常重要！）
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# 测试覆盖度报告
+coverage/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+
+# 上传的文件（开发环境）
+uploads/
+*.xlsx
+*.xls
+*.csv
+
+# 包管理器锁文件（如果不想跟踪）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# IDE 项目文件
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# 系统文件
+ehthumbs.db
+*.stackdump
+
+# 配置文件（根据需要选择是否忽略）
+# config.js
+# config.json
+
+# 备份文件
+*.bak
+*~
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 图片优化文件
+*.webp
